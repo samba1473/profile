@@ -1,0 +1,308 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#collapsenav {
+    position: absolute;
+    top: 104%;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    left: 0;
+    padding: 20px 100px;
+}
+.navbar-dark .navbar-toggler {
+    color: #8a8a8a;
+    border-color: rgba(255,255,255,.1);
+}
+#collapsenav ul li a {
+    color: #000;
+    font-size: 14px;
+}
+.top_menu_div{
+    display: inline-flex;
+}
+.top_nav_icons{ 
+    margin-bottom: 0px;
+}
+.top_nav_icons li{
+    display: inline;
+}
+
+/****           banner section styles         ********/
+
+.banner-section{
+    background: #cccccc;
+}
+.banner_content_div{
+    padding:150px 0px;
+    text-align: center;
+    color:#fff;
+}
+.banner_content_div h1{
+    font-size: 40px;
+}
+.banner_content_div h3{
+    font-size: 22px;
+    padding: 20px;
+}
+.banner_content_div ul{
+    display: inline-flex;
+    padding:0px;
+    margin:0px;
+}
+.banner_content_div ul li{    
+    padding: 8px 14px;
+    list-style-type: none;
+}
+.banner_content_div ul li:first-child{
+    background: #c7b199; 
+    margin-right:5px;
+}
+.banner_content_div ul li:last-child{
+    background-color: #fff; 
+}
+
+.banner_content_div ul li a{
+    font-size: 14px;
+    color:#fff;
+    text-decoration: none;;
+}
+.banner_content_div ul li:last-child a{
+    color:#000
+}
+
+/********   second banner   ********/
+.secone_banner-section{
+    background: url("../images/second_banner_back.jpg");
+    background-size: cover;
+}
+.secone_banner-section .row{
+    width:100%;
+}
+.second-banner_content{
+    background:#bda28487;
+    padding:180px 0px; 
+    padding-left:100px;
+}
+.second-banner_content h2{
+    font-size: 20px;
+}
+.second-banner_content h3{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.btn-second-bnr{
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn-second-bnr img{
+    width:14px;
+}
+
+/*********  company *******/
+
+.company_section{
+    PADDING:50PX 0PX;    
+}
+.company_title{
+    text-align: center;
+}
+.company_title h1 {
+    font-size: 23px; 
+}
+.company_title h6{
+    font-size: 18px;
+    color:#e9a3a6;
+}
+.company_content_div1{
+    display: flex;
+}
+.company_content_div1 span{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 18px;
+    text-align: end;
+    display: block;
+    color:#4e4a4a;
+}
+.company_content_div1 p{
+    font-size: 13px;
+    text-align: justify;
+    color: #e9a3a6;
+}
+.company_content_div1 img{
+    width: 190px;
+    height: 95px;
+    padding-left: 30px;
+}
+.company_section_inner_div{
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+.company_inner_left_content {
+    padding: 10px 0px;
+}
+.company_inner_right_content{
+    padding: 10px 0px;
+}
+.company_inner_right_content .company_content_div1 img{
+    padding-right: 30px;
+    padding-left:0px;
+}
+.company_inner_right_content .company_content_div1 span{
+    text-align: start;
+}
+
+/********       testimonials    ********/
+
+.testimonial_section{
+    background: url("../images/testimonial-back.jpg");
+    padding:85px;
+}
+.testimonial_title{
+    text-align: center;
+}
+.testimonial_title h1{
+    font-size: 34px;
+    color:#fff;
+}
+.testimonial_div1 {
+    padding:10px;
+    text-align: center;
+    opacity: 0.5;
+    margin-top:60px;
+}
+.testimonial_div1 p{
+    padding:10px;
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial_div1 img{
+    width:150px;
+    margin: 0 auto;
+}
+.slick-center { 
+    transform: scale(1.1) ;
+    opacity: 1;
+  }
+
+ .testimonials_slider .slick-dots li button:before {    
+    content: ' ';
+    text-align: center;
+    opacity: 1;
+    border: 3px solid #fff; 
+    border-radius: 50%;
+}
+li.slick-active {
+    background: #fff;
+    border-radius: 50%;
+}
+/**********     events      *************/
+.events_section{
+    padding:80px 0px; 
+}
+.events_title h1{
+    font-size: 29px;
+    font-weight: 500;
+}
+.events_inner_div{
+    width:90%;
+    padding: 15px 0px;
+}
+.events_innerdiv_content h3{
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+.events_innerdiv_content p{
+    font-size: 13px;
+    color: #867e7ec2;
+}
+.btn-events{
+    background:#c7b199;
+    color:white;
+    padding:8px 14px;
+}
+.events_inner_div .row{
+    padding:10px 0px;
+}
+
+/*********      blog section    *******/
+.blog-section{
+    padding:80px 0px;
+    background: #f8f9fb;
+}
+.blog-title{
+    text-align: center;
+}
+.blog-title h1{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.blog-title h6{
+    font-size: 18px;
+    color: #e9a3a6;
+}
+.blog_inner_date{
+    background: #ebe2d9;
+    color:#b99c7a;
+    padding: 8px;
+    text-align: center;
+    padding-top: 15px;
+}
+.blog_inner_mainDiv {
+    padding-top: 50px;
+}
+.blog_inner_date p {
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+.blog_inner_content_div {
+    background: #fff;
+    padding: 8px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.blog_inner_content{
+    display: flex;
+}
+.blog_inner_content_div h4{
+    font-size: 18px;
+}
+.blog_inner_content_div p {
+    font-size: 13px;
+    color: #889090;
+}
+
+/*********      footer      *********/
+footer{
+    background: #000;
+    padding:100px;
+    text-align: center;
+}
+footer h1{
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.form input[type="text"] {
+    padding: 7px; 
+}
+.form input[type="button"] {
+    margin-left: -10px;
+    margin-top: -3px;
+}
+footer ul{
+    padding-top:40px;
+}
+footer ul li{
+    display: inline;
+    color:#fff;
+    font-size: 13px;
+}
+
